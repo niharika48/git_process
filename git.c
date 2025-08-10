@@ -4,7 +4,7 @@
 #include <string.h>
 
 void generatethePassword(int length) {
-    char characters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcd0123456789!@#$%^&*()_+";
+    char characters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
     int charSize = strlen(characters);
 char password[length + 1];
 
@@ -42,7 +42,7 @@ int main() {
 
 
     return 0;
-}@#$!#411
+}
 
 
 
