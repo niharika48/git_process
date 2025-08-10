@@ -21,3 +21,15 @@ int main() {
 
     printf("Enter desired password length: ");
     scanf("%d", &length);
+
+    if (length < 4) {
+        printf("Password length should be at least 4 characters.\n");
+        return 1;
+    }
+
+    srand(time(0)); // Seed random number generator
+
+    generatePassword(length);
+
+    return 0;
+}
