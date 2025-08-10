@@ -13,7 +13,7 @@ char password[length + 1];
     }
     password[length] = '\0';
 
-    printf("Generated Password: %s\n", password);
+    __printf("Generated Password: %s\n", password);
 }
 
 int main() {
