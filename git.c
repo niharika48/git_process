@@ -4,14 +4,14 @@
 #include <string.h>
 
 void generatethePassword(int length) {
-    char characters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+";
+    char characters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcd0123456789!@#$%^&*()_+";
     int charSize = strlen(characters);
 char password[length + 1];
 
     for (int i = 0; i < length; i++) {
         password[i] = characters[rand() % charSize];
     }
-    password[length] = '\0'; // Null-terminate the string
+    password[length] = '\0';
 
     printf("Generated Password: %s\n", password);
 }
@@ -30,7 +30,7 @@ int main() {
 
 
 
-    srand(time(0)); // See:d random number generator
+    srand(time(0));
 
 
 
