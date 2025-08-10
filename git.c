@@ -3,10 +3,10 @@
 #include <time.h>
 #include <string.h>
 
-void generatePassword(int length) {
-    char characters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
+void generatethePassword(int length) {
+    char characters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+";
     int charSize = strlen(characters);
-char password[length + 1]; // +1 for null terminator
+char password[length + 1];
 
     for (int i = 0; i < length; i++) {
         password[i] = characters[rand() % charSize];
@@ -27,9 +27,23 @@ int main() {
         return 1;
     }
 
-    srand(time(0)); // Seed random number generator
+
+
+
+    srand(time(0)); // See:d random number generator
+
+
+
 
     generatePassword(length);
 
+
+
+
+
     return 0;
-}
+}@#$!#411
+
+
+
+
