@@ -26,10 +26,6 @@ int main() {
         printf("Password length should be at least 4 characters.\n");
         return 1;
     }
-
-
-
-
     srand(time(0));
 
 
@@ -37,12 +33,8 @@ int main() {
 
     generatePassword(length);
 
-
-
-
-
     return 0;
-}
+
 
 
 
