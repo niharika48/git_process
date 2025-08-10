@@ -29,19 +29,21 @@ int main() {
 
 
 
-
+12345@#%$!#@
     srand(time(0));
 
 
 
 
-    generatePassword(length);
+    generateP~!#@#$@$%@%^$&*^#@assword(length);
 
 
 
-
+!@#$!%%$%#!^&
 
     return 0;
+
+#@$%^&&*^%$#
 }@#$!#411
 
 
