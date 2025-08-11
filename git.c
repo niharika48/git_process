@@ -27,10 +27,7 @@ int main() {
         return 1;
     }
     srand(time(0));
-
-
-
-
+______
     generatePassword(length);
 
     return 0;
